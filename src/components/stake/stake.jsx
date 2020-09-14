@@ -423,7 +423,7 @@ class Stake extends Component {
     return (
       <div className={classes.actions}>
         <div className={classes.actionContainer} style={{display:"contents"}}>
-         {/* <Button
+         { <Button
             fullWidth
             className={classes.primaryButton}
             variant="outlined"
@@ -432,7 +432,7 @@ class Stake extends Component {
             onClick={() => { this.navigateInternal('stake') }}
           >
             <Typography className={classes.stakeButtonText} variant={'h4'}>Swap Tokens</Typography>
-         </Button>*/}
+         </Button>}
         </div>{/*
         <div className={classes.actionContainer}>
           <Button
@@ -523,7 +523,7 @@ class Stake extends Component {
           >
             <Typography variant={'h4'}>{t('Stake.Back')}</Typography>
           </Button>
-        {/*  <Button
+        { <Button
             className={classes.stakeButton}
             variant="outlined"
             color="secondary"
@@ -531,7 +531,7 @@ class Stake extends Component {
             onClick={() => { this.onStake(assets) }}
           >
             <Typography variant={'h4'}>Swap</Typography>
-        </Button>*/}
+        </Button>}
         </div>
 
       </div>
